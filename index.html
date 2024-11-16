@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="title"><em>Let's play a game</em></h1>
+        <button onclick="
+      playGame('rock');
+        
+            " class="pick-rock choice">✊</button>
+    
+        <button onclick="   
+          playGame('paper');
+        " class="pick-paper choice">✋</button>
+    
+        <button onclick="
+          playGame('scissors');
+    
+            " class="pick-scissors choice">✌</button>
+            <p class="js-score"></p>
+            <p class="js-result"></p>
+            <p class="js-move"></p>
+        <button onclick="
+              score.wins = 0;
+             score.losses = 0;
+             score.ties = 0;
+             localStorage.removeItem('score');
+             updatedScoreElement();
+            ">Reset Score</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
