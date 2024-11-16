@@ -1,5 +1,5 @@
 body {
-    background: url(/pic.webp);
+    background: url(/rock-paper-scissors/pic.webp);
     background-size: cover;                 /* Cover the entire background */
     background-position: center;            /* Center the image */
     background-repeat: no-repeat; 
